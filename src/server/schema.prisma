@@ -21,7 +21,7 @@ model Apartment {
 }
 
 model Neighborhood {
-  id               String     @default(cuid()) @id
+  id               String     @default(cuid()) @id @unique
   name     String
   apartments Apartment[]
 }
