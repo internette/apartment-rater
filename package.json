@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "prisma": "^5.18.0",
     "sass": "^1.77.8"
   }
 }
