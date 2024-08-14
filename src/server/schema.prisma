@@ -9,7 +9,7 @@ datasource db {
 }
 
 model Apartment {
-  id               String     @default(cuid()) @id
+  id               String     @default(cuid()) @id @unique
   buildingName     String
   buildingAddress  String?
   apartmentNumber  Int
